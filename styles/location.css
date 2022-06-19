@@ -1,0 +1,97 @@
+.location {
+    width: 100%;
+    margin-left: 260px;
+}    
+
+.location .wrapper {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 116px;
+    
+}
+
+.location-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.location-wrap h2 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 74px;
+    color: #191919;
+    margin-bottom: 32px;
+}
+
+.location-wrap h4 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 36px;
+    color: #282E34;
+    margin-bottom: 12px;
+}
+
+.location-wrap p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #868FA4;
+}
+
+.location-wrap .address p {
+    margin-bottom: 40px;
+}
+
+.location-wrap .loc p {
+    margin-bottom: 40px;
+}
+
+.phone-loc div {
+    display: flex;
+    align-items: center;
+}
+
+.phone-loc-1 {
+    width: 24px;
+    height: 24px;
+    margin-right: 17px;
+}
+
+.phone-loc-2 {
+    width: 20px;
+    height: 20px;
+    margin-right: 19px;
+}
+
+.but-loc {
+    margin-top: 74px;
+    width: 336px;
+    height: 60px;
+    border: 2px solid #579D45;
+    border-radius: 4px;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #579D45;
+}
+
+.loc-bottom {
+    margin-bottom: 13px;
+}
+
+.location .map {
+    width: 840px;
+    height: 605px;
+    margin-left: 56px;
+}
+

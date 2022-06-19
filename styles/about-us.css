@@ -1,0 +1,165 @@
+.about-us {
+    width: 100%;
+}
+
+.about-us .wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about-us h2 {
+    text-align: center;
+    margin-bottom: 52px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 72px;
+    text-align: center;
+    color: #191919;
+}
+
+.information {
+    width: 1400px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.information div {
+    position: relative;
+    width: 440px;
+    height: 266px;
+    background-color: #DEE4EB;
+    border-radius: 6px;
+}
+
+.information h4 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 36px;
+    color: #579D45;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 8px;
+}
+
+.information p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #868FA4;
+    padding-left: 50px;
+}
+
+.information .information-last-card {
+    background: #579D45;
+    border-radius: 6px;
+    position: relative;
+}
+
+.information .last-card {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-top: 64px;
+    padding-bottom: 44px;
+}
+
+.image-information {
+    position: absolute;
+}
+
+.information .information-last-card button {
+    width: 305px;
+    height: 60px;
+    left: 50px;
+    top: 160px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    margin-left: 50px;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #579D45;
+
+}
+
+.car-inf {
+    position: absolute;
+    bottom: 40px;
+    right: 44px;
+}
+
+.people-inf {
+    position: absolute;
+    bottom: 40px;
+    right: 35px;
+}
+
+.lock-inf {
+    position: absolute;
+    bottom: 40px;
+    right: 57px;
+}
+
+.star-inf {
+    position: absolute;
+    bottom: 40px;
+    right: 54px;
+}
+
+.cam-inf {
+    position: absolute;
+    bottom: 40px;
+    right: 55px;
+}
+
+.photos {
+    display: flex;
+    margin-left: 260px;
+}
+
+.photos img {
+    border-radius: 6px;
+}
+
+.block-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.block-1 .photo-1 {
+    display: flex;
+    gap: 40px;
+}
+
+.block-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    gap: 40px;
+}
+
+.block-2 img {
+    width: 319px;
+    height: 238px;
+}
+

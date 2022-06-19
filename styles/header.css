@@ -1,0 +1,56 @@
+header {
+    width: 100%;
+    background-color: #FFFFFF;
+    
+}
+
+.header-wrap {
+    display: flex;
+}
+
+.header-wrap nav {
+    display: flex;
+    margin-left: 453px;
+    padding-top: 57px;
+    padding-bottom: 57px;
+}
+
+.header-wrap nav ul {
+    display: flex;
+}
+
+.header-wrap nav .header-nav{
+    color: #4D5465;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin-right: 50px;
+}
+
+.header-phone {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    margin-right: 258px;
+}
+
+.contacts ul li {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #191919;
+}
+
+.contacts ul li:last-child {
+    margin-left: 30px;
+}
+

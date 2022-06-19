@@ -1,0 +1,100 @@
+.services {
+    background-color: #f2f7fc;
+    width: 100%;
+    margin: 0 auto;
+    height: 786px;
+}
+
+.arrow-wrap {
+    position: relative;
+    height: 786px;
+}
+
+.services .arrow-1 {
+    position: absolute;
+    top: 337px;
+}
+
+.services .arrow-2 {
+    position: absolute;
+    right: 356px;
+    bottom: 0;
+}
+
+.services h2 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 74px;
+    text-align: center;
+    color: #191919;
+    margin: 0 auto;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.service-selection {
+    display: flex;
+    justify-content: center;
+}
+
+.service-selection h3 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 36px;
+    color: #868FA4;
+    margin-right: 40px;
+}
+
+.service-selection h3:last-child {
+    margin-right: 0;
+}
+
+.service-selection .active-but {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 36px;
+    color: #579D45;
+    text-decoration: underline;
+}
+
+.choice-of-service-1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 108px;
+    margin-right: 260px;
+    margin-left: auto;
+    width: 533px;
+    position: relative;
+}
+
+.choice-of-service-1 div{
+    display: flex;
+    align-items: baseline;
+}
+
+.choice-of-service-1 div img {
+    width: 10px;
+    height: 10px;
+    margin-right: 17px;
+}
+
+.choice-of-service-1 p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #868FA4;
+}
+
+.service-1 {
+    position: absolute;
+    left: -875px;
+    top: -20px;
+}

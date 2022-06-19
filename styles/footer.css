@@ -1,0 +1,63 @@
+footer {
+    width: 100%;
+    background-color: #579d45;
+    height: 232px;
+    position: relative;
+    margin-top: auto;
+}
+
+.airplane-footer {
+
+    position: absolute;
+    top: 22px;
+    width: 1800px;
+    height: 207px;
+}
+
+.contacts-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 68px;
+    margin-right: 260px;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.contacts-footer .number-1 {
+    margin-left: 12px;
+    margin-right: 42px;
+}
+
+.contacts-footer .number-2 {
+    margin-left: 8px;
+}
+
+.line-footer {
+    
+    position: absolute;
+    top: 164px;
+    left: 260px;
+}
+
+.information-footer {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 86px;
+    margin-bottom: 26px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #F2F7FC;
+}
