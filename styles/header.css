@@ -19,6 +19,12 @@ header {
     display: flex;
 }
 
+.header-wrap nav ul li:hover {
+    color: #579D45;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .header-wrap nav .header-nav{
     color: #4D5465;
     font-family: 'Proxima Nova';
@@ -38,7 +44,7 @@ header {
 .contacts {
     display: flex;
     align-items: center;
-    margin-right: 258px;
+    margin-left: 168px;
 }
 
 .contacts ul li {

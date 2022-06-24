@@ -85,6 +85,17 @@
     color: #579D45;
 }
 
+.but-loc:hover {
+    cursor: pointer;
+    background: #a4b89e;
+}
+
+.but-loc:active {
+    cursor: pointer;
+    background: #579D45;
+    color: #fff;
+}
+
 .loc-bottom {
     margin-bottom: 13px;
 }

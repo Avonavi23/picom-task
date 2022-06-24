@@ -39,6 +39,16 @@
     justify-content: center;
 }
 
+.service-selection .active-btn {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 36px;
+    color: #579D45;
+    text-decoration: underline;
+}
+
 .service-selection h3 {
     font-family: 'Proxima Nova';
     font-style: normal;
@@ -47,20 +57,11 @@
     line-height: 36px;
     color: #868FA4;
     margin-right: 40px;
+    cursor: pointer;
 }
 
 .service-selection h3:last-child {
     margin-right: 0;
-}
-
-.service-selection .active-but {
-    font-family: 'Proxima Nova';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 32px;
-    line-height: 36px;
-    color: #579D45;
-    text-decoration: underline;
 }
 
 .choice-of-service-1 {
@@ -71,6 +72,7 @@
     margin-left: auto;
     width: 533px;
     position: relative;
+    /* display: none; */
 }
 
 .choice-of-service-1 div{
@@ -79,6 +81,7 @@
 }
 
 .choice-of-service-1 div img {
+    
     width: 10px;
     height: 10px;
     margin-right: 17px;
@@ -97,4 +100,87 @@
     position: absolute;
     left: -875px;
     top: -20px;
+    width: 763px;
+    height: 306px;
 }
+
+.choice-of-service-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 108px;
+    margin-right: 260px;
+    margin-left: auto;
+    width: 533px;
+    position: relative;
+    display: none;
+}
+
+.choice-of-service-2 div{
+    display: flex;
+    align-items: baseline;
+}
+
+.choice-of-service-2 div img {
+    
+    width: 10px;
+    height: 10px;
+    margin-right: 17px;
+}
+
+.choice-of-service-2 p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #868FA4;
+}
+
+.service-2 {
+    position: absolute;
+    left: -875px;
+    top: -20px;
+    width: 857px;
+    height: 308px;
+}
+
+.choice-of-service-3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 108px;
+    margin-right: 260px;
+    margin-left: auto;
+    width: 533px;
+    position: relative;
+    display: none;
+}
+
+.choice-of-service-3 div{
+    display: flex;
+    align-items: baseline;
+}
+
+.choice-of-service-3 div img {
+    
+    width: 10px;
+    height: 10px;
+    margin-right: 17px;
+}
+
+.choice-of-service-3 p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #868FA4;
+}
+
+.service-3 {
+    position: absolute;
+    left: -875px;
+    top: -20px;
+    width: 733px;
+    height: 382px;
+}
+

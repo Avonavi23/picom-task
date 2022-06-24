@@ -88,6 +88,8 @@
     border-radius: 4px;
     border: none;
     margin-left: 50px;
+    position: sticky;
+    z-index: 2;
 
     font-family: 'Proxima Nova';
     font-style: normal;
@@ -99,6 +101,18 @@
     text-transform: uppercase;
     color: #579D45;
 
+}
+
+.information .information-last-card button:hover {
+    cursor: pointer;
+    background: #a0ba9a;
+}
+
+.information .information-last-card button:active {
+    cursor: pointer;
+    background: #579D45;
+    color: #FFFFFF;
+    border: #FFFFFF 3px solid;
 }
 
 .car-inf {

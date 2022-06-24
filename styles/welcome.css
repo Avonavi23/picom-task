@@ -20,7 +20,7 @@
 }
 
 .background-welcome  {
-    margin-bottom: 106px;
+    margin-bottom: 80px;
 }
 
 .price-choice {
@@ -109,13 +109,25 @@
     color: #FFFFFF;
 }
 
+.place:hover {
+    cursor: pointer;
+    background: #669d59;
+}
+
+.place:active {
+    background: #ffffff;
+    color: #191919;
+    border: #579D45 3px solid;
+}
+
 .reservation .date-input {
     border-right: none;
-    
+    cursor: text;
 }
 
 .reservation .time-input {
-    border-left: none;  
+    border-left: none; 
+    cursor: text; 
 }
 
 .reservation input {
